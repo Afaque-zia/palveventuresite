@@ -7923,15 +7923,18 @@ label {
   top: 140px;
 }
 
-.fixed-header {
-  position: fixed;
-  top: 0;
-  left: 50%;
-  transform: translateX(-50%);
-  border-radius: 46px;
-  max-width: 1282px !important;
-  margin: 10px auto;
-  width: 97%;
+
+@media only screen and (min-width:1100px) {
+  .fixed-header {
+    position: fixed;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 46px;
+    max-width: 1282px !important;
+    margin: 10px auto;
+    width: 97%;
+  }
 }
 
 .fixed-cate-single {
