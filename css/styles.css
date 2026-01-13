@@ -7924,7 +7924,7 @@ label {
 }
 
 
-.fixed-header {
+.capsule-header {
   border-radius: 46px;
   max-width: 1282px !important;
   margin: 10px auto;
@@ -7932,7 +7932,7 @@ label {
 }
 
 @media only screen and (min-width:1100px) {
-  .fixed-header {
+  .capsule-header {
     position: fixed;
     top: 0;
     left: 50%;
